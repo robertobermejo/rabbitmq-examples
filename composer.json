@@ -1,0 +1,21 @@
+{
+    "name": "robertobermejo/rabbitmq-examples",
+    "description": "Rabbitmq examples with symfony2 commands",
+    "require": {
+        "videlalvaro/php-amqplib": "*",
+        "symfony/console": "*",
+        "symfony/finder": "*",
+        "ext-bcmath": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Bermejo Martinez",
+            "email": "roberto@robertobermejo.es"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"": "src/"}
+    },
+    "minimum-stability": "dev"
+}
